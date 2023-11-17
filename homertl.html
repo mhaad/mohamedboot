@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="rtl">
 
 <head>
   <meta charset="UTF-8">
@@ -8,12 +8,11 @@
   <!-- font Awsem -->
   <link rel="stylesheet" href="./css/all.min.css">
   <!-- Fremwerk Bootstrap -->
-  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.rtl.min.css">
   </link>
   <!-- Style -->
   <link rel="stylesheet" href="./css/style.css">
   </link>
-
 </head>
 
 <body>
@@ -32,7 +31,7 @@
   </div>
   <!-- Colors -->
   <div id="colors" class="colors-setting position-fixed m-1">
-    <div class=" text-white w-100 h-100 position-relative ">
+    <div class=" text-white w-100 h-100 position-relative overflow-hidden ">
       <i class="fas fa-cog position-absolute fs-5 "></i>
     </div>
     <ul id="list-colors" class="list-unstyled w-100 ">
@@ -42,15 +41,16 @@
       <li class=" position-absolute top-0 top-50 start-50 translate-middle" data-color="#ffc107"></li>
     </ul>
     <ul id="list-languages" class="list-unstyled w-100">
+      <li class=" position-absolute top-0 top-50 start-50 translate-middle text-white text-center active">AR</li>
       <li class=" position-absolute top-0 top-50 start-50 translate-middle text-white text-center"
-        onclick="location.href='./rtlpage/homertl.html'">AR</li>
-      <li class=" position-absolute top-0 top-50 start-50 translate-middle text-white text-center active">EN</li>
+        onclick="location.href='./index.html'">EN
+      </li>
     </ul>
   </div>
   <!-- Start Nav -->
   <nav class="navbar navbar-expand-lg bg-dark text-white position-fixed top-0 w-100 p-0">
     <div class="container h-100 position-relative">
-      <a class="navbar-brand text-white fs-3 ms-3" href="#">Mohamed <span>Hussen</span></a>
+      <a class="navbar-brand text-white fs-3 ms-3" href="#">محمد<span> حسين</span></a>
       <button class="navbar-toggler d-block d-lg-none shadow-none" type="button">
         <span class="w-100 bg-light d-block"></span>
         <span class="w-100 bg-light d-block mt-1 mb-1"></span>
@@ -59,31 +59,32 @@
       <div class="collapse d-none d-lg-flex">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-dark" id="first">
           <li class="nav-item">
-            <a class="nav-link text-white-50 pt-3 pb-3 ps-4 pe-4 active" href="home.html">Home</a>
+            <a class="nav-link text-white-50 pt-3 pb-3 ps-4 pe-4 active" href="homertl.html">الرئيسية</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white-50 pt-3 pb-3 ps-4 pe-4" href="./other/about.html">About</a>
+            <a class="nav-link text-white-50 pt-3 pb-3 ps-4 pe-4" href="aboutrtl.html">عنا</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white-50 pt-3 pb-3 ps-4 pe-4" href="./other/faq.html">FAQ</a>
+            <a class="nav-link text-white-50 pt-3 pb-3 ps-4 pe-4" href="faqrtl.html">الأسئلة الشائعة
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white-50 pt-3 pb-3 ps-4 pe-4" href="#footer">Footer</a>
+            <a class="nav-link text-white-50 pt-3 pb-3 ps-4 pe-4" href="#footer">معلومات</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link text-white-50 dropdown-toggle pt-3 pb-3 ps-4 pe-4" href="#">
-              More
+              المزيد
             </a>
             <ul class="dropdown-menu bg-dark mt-2" id="second">
-              <li><a class="dropdown-item text-white-50" href="#price_table">Our Price</a></li>
-              <li><a class="dropdown-item text-white-50 " href="#team">Team</a></li>
-              <li><a class="dropdown-item text-white-50" href="#subscripe">Subscripe</a></li>
-              <li><a class="dropdown-item text-white-50" href="#statistics">Statistics</a></li>
-              <li><a class="dropdown-item text-white-50" href="#skills">Skills</a></li>
+              <li><a class="dropdown-item text-white-50" href="#price_table">سعرنا</a></li>
+              <li><a class="dropdown-item text-white-50 " href="#team">فريقنا</a></li>
+              <li><a class="dropdown-item text-white-50" href="#subscripe">سجل الان</a></li>
+              <li><a class="dropdown-item text-white-50" href="#statistics">إحصائيات</a></li>
+              <li><a class="dropdown-item text-white-50" href="#skills">مهارات</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item text-white-50" href="#contact">Contact</a></li>
+              <li><a class="dropdown-item text-white-50" href="#contact">تواصل معنا</a></li>
             </ul>
           </li>
         </ul>
@@ -104,48 +105,41 @@
       <div class="carousel-item position-relative active" aria-label="Slide-0">
         <img src="./image/IMG_3941.jpg" width="100%" height="500px" class="d-block" alt="slide-img">
         <div class="carousel-caption w-75 p-5 position-aubsolute top-50 start-50 translate-middle d-none d-md-block">
-          <h3>Innovative and Engaging Website Design</h3>
+          <h3>تصميم مواقع ويب مبتكرة وجذابة</h3>
           <p>
-            We are committed to designing unique and innovative websites that attract visitors and reflect your business
-            identity exceptionally.
+            نحن ملتزمون بتصميم مواقع ويب فريدة ومبتكرة تجذب الزوار وتعكس هوية عملك بشكل استثنائي.
           </p>
         </div>
       </div>
       <div class="carousel-item position-relative" aria-label="Slide-1">
         <img src="./image/IMG_3942.jpg" width="100%" height="500px" class="d-block" alt="slide-img">
         <div class="carousel-caption w-75 p-5 position-aubsolute top-50 start-50 translate-middle d-none d-md-block">
-          <h3>Responsive Website Development</h3>
-          <p>
-            We provide designs and development that are compatible with various devices and screens, ensuring a smooth
-            and comfortable user experience on smartphones, tablets, and computers.</p>
+          <h3>تطوير مواقع ويب متجاوبةl</h3>
+          <p>نقدم تصميمات وتطويرًا يتوافقان مع مختلف الأجهزة والشاشات، مما يضمن تجربة مستخدم سلسة ومريحة على الهواتف
+            الذكية والأجهزة اللوحية وأجهزة الكمبيوتر.</p>
         </div>
       </div>
       <div class="carousel-item position-relative" aria-label="Slide-2">
         <img src="./image/IMG_3943.jpg" width="100%" height="500px" class="d-block" alt="slide-img">
         <div class="carousel-caption w-75 p-5 position-aubsolute top-50 start-50 translate-middle d-none d-md-block">
-          <h3>User Experience UX Enhancement</h3>
-          <p>
-            We focus on improving the user experience of your website through user-friendly interface design, efficient
-            navigation, and a comfortable user journey.</p>
+          <h3>تحسين تجربة المستخدم</h3>
+          <p>نهتم بتحسين تجربة مستخدم الموقع من خلال تصميم واجهة مستخدم سهلة الاستخدام وملاحة فعالة وتجربة مريحة
+            للمستخدم.</p>
         </div>
       </div>
       <div class="carousel-item position-relative" aria-label="Slide-3">
         <img src="./image/IMG_3945.jpg" width="100%" height="500px" class="d-block" alt="slide-img">
         <div class="carousel-caption w-75 p-5 position-aubsolute top-50 start-50 translate-middle d-none d-md-block">
-          <h3>iSearch Engine Optimization SEO</h3>
-          <p>
-            We optimize your website to be visible in search engine results, increase organic traffic, and generate
-            targeted traffic to your site.</p>
+          <h3>تحسين محركات البحث SEO</h3>
+          <p> نقوم بتحسين موقعك ليكون مرئيًا في نتائج محركات البحث وزيادة الزيارات العضوية وتوليد حركة مرور مستهدفة
+            لموقعك.</p>
         </div>
       </div>
       <div class="carousel-item position-relative" aria-label="Slide-4">
         <img src="./image/IMG_3944.jpg" width="100%" height="500px" class="d-block" alt="slide-img">
         <div class="carousel-caption w-75 p-5 position-aubsolute top-50 start-50 translate-middle d-none d-md-block">
-          <h3>Ongoing Technical Support and Maintenance</h3>
-          <p>
-            We offer continuous technical support and maintenance for your website to ensure its smooth operation and
-            minimize technical issues.
-          </p>
+          <h3>دعم فني وصيانة مستمرة</h3>
+          <p>نقدم دعمًا فنيًا متواصلًا وصيانة لموقعك لضمان استمرارية عمله بشكل سلس وخالٍ من المشاكل التقنية.</p>
         </div>
       </div>
     </div>
@@ -164,39 +158,48 @@
   <!-- Start About Us -->
   <section class="about-us pt-5 pb-5 ">
     <div class="container text-center">
-      <h3 class="mb-3">Meet Our New Template <span>Mohamed Hussen</span></h3>
-      <p class="">Hello Let Me Introduce Our Template Mohamed Hussen With All The Love With <strong>Bootstrap</strong>
-        5.3.2</p>
+      <h3 class="mb-3"> نموذج <span>محمد حسين</span></h3>
+      <p class="">
+        نحن سعداء للغاية بإطلاق نموذج محمد حسين، وهو أحدث إضافة إلى مجموعة قوالبنا. تم تصميم هذا النموذج باستخدام
+        <strong> Bootstrap 5.3.2</strong> ، وهو أحدث إصدار من إطار عمل <strong>Bootstrap</strong> الشهير. يتميز هذا
+        النموذج بتصميمه العصري ووظائفه القوية،
+        وهو خيار مثالي لأي مشروع جديد.
+      </p>
     </div>
   </section>
   <!-- End About Us -->
   <!-- Start Features -->
   <section class="features text-center pt-5 pb-5">
     <div class="container">
-      <h2 class="mb-5 fs-1 ani">Our Features</h2>
+      <h2 class="mb-5 fs-1 ani">ميزاتنا</h2>
       <div class="row">
         <div class="col-md-6 col-lg-3 p-2 ani">
           <i class="fas fa-laptop-code fs-1"></i>
-          <h5 class="mt-2 mb-2">100% Responsive</h5>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore blanditiis autem mollitia quas ea libero
+          <h5 class="mt-2 mb-2"> الاستجابة الكاملة <span>100%</span></h5>
+          <p>
+            يمكنني تصميم وتطوير مواقع وتطبيقات ويب متجاوبة 100% ، أي أنها تبدو رائعة على جميع الأجهزة، من الهواتف الذكية
+            الصغيرة إلى أجهزة الكمبيوتر المكتبية الكبيرة.
           </p>
         </div>
         <div class="col-md-6 col-lg-3 p-2 ani">
           <i class="as fas fa-code fs-1"></i>
-          <h5 class="mt-2 mb-2">Retina Ready</h5>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore blanditiis autem mollitia quas ea libero
+          <h5 class="mt-2 mb-2">توافق شاشات</h5>
+          <p>
+            يمكنني تصميم وتطوير مواقع وتطبيقات ويب متوافقة مع شاشات أي أنها تبدو رائعة على التي تتميز بوضوح ودقة أعلى من
+            الشاشات العادية.
           </p>
         </div>
         <div class="col-md-6 col-lg-3 p-2 ani">
           <i class="fas fa-code-branch fs-1"></i>
-          <h5 class="mt-2 mb-2">Awesome Display</h5>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore blanditiis autem mollitia quas ea libero
+          <h5 class="mt-2 mb-2">تصميم رائعة</h5>
+          <p> تصميم وتطوير مواقع وتطبيقات ويب تتميز بعرض رائع يجذب انتباه المستخدمين ويجعلهم يرغبون في استخدامها.
           </p>
         </div>
         <div class="col-md-6 col-lg-3 p-2 ani">
           <i class="fas fa-folder-open fs-1"></i>
-          <h5 class="mt-2 mb-2">Well Documented</h5>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore blanditiis autem mollitia quas ea libero
+          <h5 class="mt-2 mb-2">التوثيق الجيد</h5>
+          <p>
+            يمكنني تصميم وتطوير مواقع وتطبيقات ويب موثّقة جيدًا، أي أنها تتضمن وثائق تشرح كيفية استخدامها وتطويرها.
           </p>
         </div>
       </div>
@@ -206,7 +209,7 @@
   <!-- Start Testimonials -->
   <section class="testimonials text-center pt-5 pb-5">
     <div class="container">
-      <h2 class="fs-1 mb-4 ani">What Our Clinets Say</h2>
+      <h2 class="fs-1 mb-4 ani">ما قاله عملأنا عنا</h2>
       <div class="text-slide carousel ani">
         <div id="textSlide" class="carousel-indicators top-100 ">
           <button type="button" class="active ms-1 border-0" aria-label="slideText-0"></button>
@@ -215,25 +218,19 @@
         </div>
         <div class="carousel-inner ">
           <div class="carousel-item position-relative mb-2 active" aria-label="slideText-0">
-            <p>1Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod consequatur dignissimos autem nisi dolores
-              labore, quisquam vel, iusto recusandae voluptas at magni doloribus laudantium tempora odio! Distinctio
-              rerum optio ea eius corporis! Illum ad, et vitae sint facere nobis nesciunt non, aperiam ullam nam iusto
-              corrupti eaque atque nemo quibusdam!</p>
-            <span>Osame Ahmed</span>
+            <p>"أنا مسرور جدًا بالموقع الذي قام فريق العمل ببنائه لشركتي. تصميم مبتكر وواجهة مستخدم سهلة الاستخدام. أوصي
+              بهم بشدة!"</p>
+            <span>اسامه أحمد</span>
           </div>
           <div class="carousel-item position-relative mb-2" aria-label="slideText-1">
-            <p>2Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod consequatur dignissimos autem nisi dolores
-              labore, quisquam vel, iusto recusandae voluptas at magni doloribus laudantium tempora odio! Distinctio
-              rerum optio ea eius corporis! Illum ad, et vitae sint facere nobis nesciunt non, aperiam ullam nam iusto
-              corrupti eaque atque nemo quibusdam!</p>
-            <span>Ibrahim Hussen</span>
+            <p>"تعامل رائع واحترافية عالية. استمعوا بعناية لمتطلباتنا وقدموا حلاً فعالًا ومبتكرًا. فريق موهوب ومتعاون!"
+            </p>
+            <span>ابرهيم حسين</span>
           </div>
           <div class="carousel-item position-relative mb-2" aria-label="slideText-2">
-            <p>3Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod consequatur dignissimos autem nisi dolores
-              labore, quisquam vel, iusto recusandae voluptas at magni doloribus laudantium tempora odio! Distinctio
-              rerum optio ea eius corporis! Illum ad, et vitae sint facere nobis nesciunt non, aperiam ullam nam iusto
-              corrupti eaque atque nemo quibusdam!</p>
-            <span>Kareem Mohamed</span>
+            <p>"لا يمكنني أن أشكر فريق العمل بما فيه الكفاية على تصميم الموقع الرائع الخاص بنا. كانوا متعاونين وسريعين
+              في تنفيذ المشروع بشكل استثنائي."</p>
+            <span>كريم محمد</span>
           </div>
         </div>
       </div>
@@ -243,66 +240,67 @@
   <!-- Start Price Table -->
   <section id="price_table" class="price_table pt-5 pb-5 text-center">
     <div class="container">
-      <h2 class="mb-5 fs-1 ani">Our Amazing Prices</h2>
+      <h2 class="mb-5 fs-1 ani">أسعارنا المذهلة</h2>
       <div class="box row overflow-hidden">
         <div class="col-md-6 col-lg-3 up-done ani">
           <div class="m-1 p-3 pt-5 pb-5 rounded shadow">
-            <h2 class=" mb-4 ">Hosting</h2>
+            <h2 class=" mb-4 ">الاستضافة</h2>
             <span
-              class="fs-1 fw-bold d-flex justify-content-center align-items-center border rounded-circle mt-2 mb-2 m-auto">$40</span>
+              class="fs-1 fw-bold d-flex justify-content-center align-items-center border rounded-circle mt-2 mb-2 m-auto">
+              $40</span>
             <ul class="p-0 list-unstyled">
-              <li class="fs-5 p-2"><strong>Space:</strong> 30GB</li>
-              <li class="fs-5 p-2"><strong>Emails:</strong> 20</li>
-              <li class="fs-5 p-2"><strong>Ips:</strong> 2 IP</li>
-              <li class="fs-5 p-2"><strong>Databases:</strong> 10</li>
-              <li class="fs-5 p-2"><strong>Ftp Accpunts:</strong> 5</li>
+              <li class="fs-5 p-2"><strong>المساحة: </strong> 30 جيجابايت</li>
+              <li class="fs-5 p-2"><strong>البريد الإلكتروني:</strong> 20</li>
+              <li class="fs-5 p-2"><strong>عناوين:</strong> 2 IP</li>
+              <li class="fs-5 p-2"><strong>قواعد البيانات:</strong> 10</li>
+              <li class="fs-5 p-2"><strong>حسابات:</strong> 5</li>
             </ul>
-            <button class="btn text-white btu-color">Order Now</button>
+            <button class="btn text-white btu-color shadow-none">اطلب الآن</button>
           </div>
         </div>
         <div class="col-md-6 col-lg-3 up-done ani">
           <div class="m-1 p-3 pt-5 pb-5 rounded shadow">
-            <h2 class="mb-4">Hosting</h2>
+            <h2 class=" mb-4 ">الاستضافة</h2>
             <span
               class="fs-1 fw-bold d-flex justify-content-center align-items-center border rounded-circle mt-2 mb-2 m-auto">$40</span>
             <ul class="p-0 list-unstyled">
-              <li class="fs-5 p-2"><strong>Space:</strong> 30GB</li>
-              <li class="fs-5 p-2"><strong>Emails:</strong> 20</li>
-              <li class="fs-5 p-2"><strong>Ips:</strong> 2 IP</li>
-              <li class="fs-5 p-2"><strong>Databases:</strong> 10</li>
-              <li class="fs-5 p-2"><strong>Ftp Accpunts:</strong> 5</li>
+              <li class="fs-5 p-2"><strong>المساحة: </strong> 30 جيجابايت</li>
+              <li class="fs-5 p-2"><strong>البريد الإلكتروني:</strong> 20</li>
+              <li class="fs-5 p-2"><strong>عناوين:</strong> 2 IP</li>
+              <li class="fs-5 p-2"><strong>قواعد البيانات:</strong> 10</li>
+              <li class="fs-5 p-2"><strong>حسابات:</strong> 5</li>
             </ul>
-            <button class="btn text-white btu-color">Order Now</button>
+            <button class="btn text-white btu-color shadow-none">اطلب الآن</button>
           </div>
         </div>
         <div class="col-md-6 col-lg-3 up-done ani">
-          <div class=" m-1 p-3 pt-5 pb-5 rounded shadow">
-            <h2 class="mb-4">Hosting</h2>
+          <div class="m-1 p-3 pt-5 pb-5 rounded shadow">
+            <h2 class=" mb-4 ">الاستضافة</h2>
             <span
               class="fs-1 fw-bold d-flex justify-content-center align-items-center border rounded-circle mt-2 mb-2 m-auto">$40</span>
             <ul class="p-0 list-unstyled">
-              <li class="fs-5 p-2"><strong>Space:</strong> 30GB</li>
-              <li class="fs-5 p-2"><strong>Emails:</strong> 20</li>
-              <li class="fs-5 p-2"><strong>Ips:</strong> 2 IP</li>
-              <li class="fs-5 p-2"><strong>Databases:</strong> 10</li>
-              <li class="fs-5 p-2"><strong>Ftp Accpunts:</strong> 5</li>
+              <li class="fs-5 p-2"><strong>المساحة: </strong> 30 جيجابايت</li>
+              <li class="fs-5 p-2"><strong>البريد الإلكتروني:</strong> 20</li>
+              <li class="fs-5 p-2"><strong>عناوين:</strong> 2 IP</li>
+              <li class="fs-5 p-2"><strong>قواعد البيانات:</strong> 10</li>
+              <li class="fs-5 p-2"><strong>حسابات:</strong> 5</li>
             </ul>
-            <button class="btn text-white btu-color">Order Now</button>
+            <button class="btn text-white btu-color shadow-none">اطلب الآن</button>
           </div>
         </div>
         <div class="col-md-6 col-lg-3 up-done ani">
-          <div class="m-1 p-3 pt-5 pb-5 rounded  shadow">
-            <h2 class=" mb-4">Hosting</h2>
+          <div class="m-1 p-3 pt-5 pb-5 rounded shadow">
+            <h2 class=" mb-4 ">الاستضافة</h2>
             <span
               class="fs-1 fw-bold d-flex justify-content-center align-items-center border rounded-circle mt-2 mb-2 m-auto">$40</span>
             <ul class="p-0 list-unstyled">
-              <li class="fs-5 p-2"><strong>Space:</strong> 30GB</li>
-              <li class="fs-5 p-2"><strong>Emails:</strong> 20</li>
-              <li class="fs-5 p-2"><strong>Ips:</strong> 2 IP</li>
-              <li class="fs-5 p-2"><strong>Databases:</strong> 10</li>
-              <li class="fs-5 p-2"><strong>Ftp Accpunts:</strong> 5</li>
+              <li class="fs-5 p-2"><strong>المساحة: </strong> 30 جيجابايت</li>
+              <li class="fs-5 p-2"><strong>البريد الإلكتروني:</strong> 20</li>
+              <li class="fs-5 p-2"><strong>عناوين:</strong> 2 IP</li>
+              <li class="fs-5 p-2"><strong>قواعد البيانات:</strong> 10</li>
+              <li class="fs-5 p-2"><strong>حسابات:</strong> 5</li>
             </ul>
-            <button class="btn text-white btu-color">Order Now</button>
+            <button class="btn text-white btu-color shadow-none">اطلب الآن</button>
           </div>
         </div>
       </div>
@@ -312,13 +310,14 @@
   <!-- Start Our Team -->
   <section id="team" class="our-team pb-5 pt-5 text-white bg-dark text-center">
     <div class="container ">
-      <h2 class="z-3 ani">Meet Our Awesome Team</h2>
+      <h2 class="z-3 ani">تعرف على فريقنا الرائع</h2>
       <div class="row overflow-hidden">
         <div class="col-md-6 col-lg-3 p-2 ">
           <div class="m-1 box  up-done ani">
             <img class="rounded-circle" src="./image/chris-min.jpg" alt="">
-            <h3 class="mt-2 mb-2">Chris Coyier</h3>
-            <p>This Is Chris Coyier The Founder Of The Amazing Website Css-Tricks</p>
+            <h3 class="mt-2 mb-2">جون سميث</h3>
+            <p>مطور ويب محترف ومبدع. خبرة واسعة في تطوير تطبيقات الويب وتصميم واجهة المستخدم. يجلب الإبداع والحلول
+              الفعالة لمشاريعنا.</p>
             <nav>
               <i class="fab fa-facebook-f m-1 "></i>
               <i class="fab fa-youtube  m-1 "></i>
@@ -330,8 +329,9 @@
         <div class="col-md-6 col-lg-3 p-2">
           <div class="m-1 box  up-done ani">
             <img class="rounded-circle" src="./image/steve-min.jpg" alt="">
-            <h3 class="mt-2 mb-2">Chris Coyier</h3>
-            <p>This Is Chris Coyier The Founder Of The Amazing Website Css-Tricks</p>
+            <h3 class="mt-2 mb-2">مايكل وليامز</h3>
+            <p>محلل بيانات ذكي ومتخصص في الذكاء الاصطناعي. يتمتع بقدرة استثنائية على تحليل البيانات وتوفير رؤى قيمة.
+              يساعدنا على اتخاذ القرارات الاستراتيجية الصحيحة.</p>
             <nav>
               <i class="fab fa-facebook-f m-1 "></i>
               <i class="fab fa-youtube  m-1 "></i>
@@ -343,8 +343,9 @@
         <div class="col-md-6 col-lg-3 p-2">
           <div class="m-1 box  up-done ani">
             <img class="rounded-circle" src="./image/leah-min.jpg" alt="">
-            <h3 class="mt-2 mb-2">Chris Coyier</h3>
-            <p>This Is Chris Coyier The Founder Of The Amazing Website Css-Tricks</p>
+            <h3 class="mt-2 mb-2"> سارة جونز</h3>
+            <p>مصممة جرافيك موهوبة ومتحمسة. تتمتع بمهارات رائعة في تصميم الشعارات والهوية البصرية وتجربة المستخدم. تعمل
+              على إضفاء الجمال والإبداع على مشاريعنا.</p>
             <nav>
               <i class="fab fa-facebook-f m-1 "></i>
               <i class="fab fa-youtube  m-1 "></i>
@@ -356,8 +357,9 @@
         <div class="col-md-6 col-lg-3 p-2">
           <div class="m-1 box up-done ani">
             <img class="rounded-circle" src="./image/marissa-min.jpg" alt="">
-            <h3 class="mt-2 mb-2">Chris Coyier</h3>
-            <p>This Is Chris Coyier The Founder Of The Amazing Website Css-Tricks</p>
+            <h3 class="mt-2 mb-2">إيمي هاريسون</h3>
+            <p>مديرة مشروع متمرسة ومنظمة. تتولى إدارة المشاريع بكفاءة عالية وتضمن تنفيذها في الموعد المحدد وفقًا
+              للمتطلبات. تضمن أن يكون لدينا تجربة تعاون سلسة مع عملائنا.</p>
             <nav>
               <i class="fab fa-facebook-f m-1 "></i>
               <i class="fab fa-youtube  m-1 "></i>
@@ -373,11 +375,13 @@
   <!-- Start Subscripe -->
   <section id="subscripe" class="subscripe text-center pb-5 pt-5">
     <div class="container  overflow-hidden">
-      <h2 class="fs-1 ani">Keep In Touch</h2>
-      <p class="mt-3 mb-3 up-done up-done ani">Sign Up For Newsletter Dont Worry About Spam We Hate Oy Too.</p>
+      <h2 class="fs-1 ani">حافظ على اتصال</h2>
+      <p class="mt-3 mb-3 up-done up-done ani">اشترك في النشرة الإخبارية
+        لا تقلق بشأن البريد العشوائي، نحن نكرهه أيضًا.</p>
       <form class="w-50 row m-auto justify-content-center overflow-hidden">
-        <input type="text" class="border border-end-0 p-1 ps-2 col-md-7 up-done ani" placeholder="Write Your Email">
-        <input type="submit" value="Subsecribe"
+        <input type="text" class="border border-end-0 p-1 ps-2 col-md-7 up-done ani"
+          placeholder="اكتب بريدك الإلكتروني">
+        <input type="submit" value="سجل الان"
           class="border btu-color border-start-0 p-1 ps-2 pe-2 text-white col-md-3 up-done ani">
       </form>
     </div>
@@ -386,34 +390,34 @@
   <!-- Start Statistics -->
   <section id="statistics" class="statistics text-center pt-5 pb-5 bg-dark text-white-50 ani">
     <div class="container">
-      <h2 class="fs-1 mb-5 ani">Our Main Statistics</h2>
+      <h2 class="fs-1 mb-5 ani">إحصائياتنا الرئيسية</h2>
       <div class="row overflow-hidden">
         <div class=" col-sm-6 col-md-6 col-lg-3 up-done ani">
           <div class="box m-3">
             <i class="fas fa-users fs-1"></i>
             <strong class="d-block fs-2 mt-2 mb-2">9,550</strong>
-            <p>Satisfied Users</p>
+            <p>المستخدمون الراضون</p>
           </div>
         </div>
         <div class=" col-sm-6 col-md-6 col-lg-3 up-done ani">
           <div class="box m-3">
             <i class="fas fa-comments fs-1"></i>
             <strong class="d-block fs-2 mt-2 mb-2">25,600</strong>
-            <p>Posted Comments</p>
+            <p>التعليقات المنشورة</p>
           </div>
         </div>
         <div class=" col-sm-6 col-md-6 col-lg-3 up-done ani">
           <div class="box m-3">
             <i class="fas fa-tasks fs-1"></i>
             <strong class="d-block fs-2 mt-2 mb-2">95,350</strong>
-            <p>Tickets Archieved</p>
+            <p>التذاكر المؤرشفة</p>
           </div>
         </div>
         <div class=" col-sm-6 col-md-6 col-lg-3 opacity-5 up-done ani">
           <div class="box m-3">
             <i class="fas fa-project-diagram fs-1"></i>
             <strong class="d-block fs-2 mt-2 mb-2">3,260</strong>
-            <p>Projects Done</p>
+            <p>المشاريع المنجزة</p>
           </div>
         </div>
       </div>
@@ -423,7 +427,7 @@
   <!-- Start Skills -->
   <section id="skills" class="skills pb-5 pt-5">
     <div class="container">
-      <h2 class="fs-1 mb-5 text-center ani">Our Skills</h2>
+      <h2 class="fs-1 mb-5 text-center ani">مهاراتنا</h2>
       <div class="row align-items-center justify-content-between">
         <div class="col-md-6 text-white">
           <div class="box bg-light rounded mb-2 overflow-hidden"><span
@@ -440,11 +444,10 @@
           </div>
         </div>
         <div class="col-md-5 mt-3 mt-md-0 overflow-hidden">
-          <h3 class="ani">Aout The Team</h3>
-          <p class="ani">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem mollitia reiciendis aperiam
-            est
-            asperiores blanditiis, animi incidunt alias minus totam.</p>
-          <button class="btn btu-color text-white shadow-none ani">Talk With A Professional</button>
+          <h3 class="ani">عن الفريق</h3>
+          <p class="ani">نحن نعمل مع العملاء لتحقيق أهدافهم التكنولوجية من خلال تقديم حلول مبتكرة ومخصصة. نحن نقدم الدعم
+            الفني المستمر لضمان استقرار ونجاح تطبيقاتهم ومواقعهم الإلكترونية.</p>
+          <button class="btn btu-color text-white shadow-none ani">تحدث مع الخبراء</button>
         </div>
       </div>
     </div>
@@ -455,22 +458,22 @@
     <div class="container overflow-hidden">
       <div class="text-center mb-4 ani">
         <i class="fas fa-users fs-1 mb-2 d-block"></i>
-        <h2 class="fs-2">Tell Us What You Fell</h2>
-        <p>Feel Free To Contact Us Anytime</p>
+        <h2 class="fs-2">أخبرنا بما تشعر</h2>
+        <p>لا تتردد في الاتصال بنا في أي وقت</p>
       </div>
       <form class="row">
         <div class="col-md-6 overflow-hidden">
           <input class="d-block p-2 ps-3 w-100 bg-dark border mb-2 rounded text-white ani" type="text" name="User"
-            placeholder="Useranme">
+            placeholder="اسم المستخدم">
           <input class="d-block p-2 ps-3 w-100 bg-dark border mb-2 rounded text-white ani" type="email" name="Email"
-            placeholder="Email">
+            placeholder="بريد إلكتروني">
           <input class="d-block p-2 ps-3 w-100 bg-dark border rounded text-white ani" type="number" name="Number"
-            placeholder="Call Phone">
+            placeholder="اتصل بالهاتف">
         </div>
         <div class="col-md-6 overflow-hidden">
           <textarea class="d-block p-2 ps-3 w-100 bg-dark border mb-1 rounded text-white mt-2 mt-md-0 mb-2 ani "
-            name="message" placeholder="Your Message"></textarea>
-          <input class="btn w-100 btu-color text-white p-2 ani" type="submit" value="Contact Us">
+            name="message" placeholder="رسالتك"></textarea>
+          <input class="btn w-100 btu-color text-white p-2 ani" type="submit" value="اتصل بنا">
         </div>
       </form>
     </div>
@@ -495,22 +498,22 @@
     <div class="container">
       <div class="row overflow-hidden">
         <div class="col-md-6 col-lg-4 mb-4 mt-2 mb-4  ani">
-          <h3>Sitemap</h3>
+          <h3>خريطة الموقع</h3>
           <div class="row">
             <ul class="list-unstyled text-white-50 col-sm-4">
-              <li class="mb-2">Home</li>
-              <li class="mb-2">Code</li>
-              <li class="mb-2">Solutions</li>
+              <li class="mb-2">الصفحة الرئيسية</li>
+              <li class="mb-2">الكود</li>
+              <li class="mb-2">الحلول</li>
             </ul>
             <ul class="list-unstyled text-white-50 col-sm-4">
-              <li class="mb-2">Abut</li>
-              <li class="mb-2">Design</li>
-              <li class="mb-2">Sltemap</li>
+              <li class="mb-2">حول</li>
+              <li class="mb-2">التصميم</li>
+              <li class="mb-2">خريطة الموقع</li>
             </ul>
             <ul class="list-unstyled text-white-50 col-sm-4">
-              <li class="mb-2">Company</li>
-              <li class="mb-2">host</li>
-              <li class="mb-2">Contact</li>
+              <li class="mb-2">الشركة</li>
+              <li class="mb-2">المضيف</li>
+              <li class="mb-2">اتصل بنا</li>
             </ul>
           </div>
           <div>
@@ -523,31 +526,35 @@
           </div>
         </div>
         <div class="col-md-6 col-lg-4 text-white mb-4 ani">
-          <h3>Latest Articles</h3>
+          <h3>أحدث المقالات</h3>
           <div class="row align-items-center justify-content-center mb-2">
             <img class="col-3 mb-md-4" src="./image/one.png" alt="img-footer">
             <div class="col-9">
-              <h5>Programming</h5>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis quod unde fugit .</p>
+              <h5>برمجة</h5>
+              <p>نحن نقدم خدمات برمجة مبتكرة ومخصصة لتلبية احتياجات العملاء. نحن نكتب شفرات برمجية قوية وفعالة لتطوير
+                تطبيقات ومواقع ويب متقدمة..</p>
             </div>
           </div>
           <div class="row align-items-center justify-content-center mb-2">
             <img class="col-3 mb-md-4" src="./image/man-1.png" alt="img-footer">
             <div class="col-9">
-              <h4>Coding</h4>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis quod unde fugit .</p>
+              <h4>كود</h4>
+              <p>نحن نتخصص في كتابة الشفرات البرمجية المتقدمة لتنفيذ وظائف محددة وتطوير تطبيقات مبتكرة. نحن نلتزم
+                بمعايير البرمجة الأفضل ونضمن جودة الكود المنتج.
+              </p>
             </div>
           </div>
           <div class="row align-items-center justify-content-center">
             <img class="col-3 mb-md-4" src="./image/one.png" alt="img-footer">
             <div class="col-9">
-              <h4>Web Desing</h4>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis quod unde fugit .</p>
+              <h4>تصميم ويب</h4>
+              <p>نحن نقدم خدمات تصميم واجهة مستخدم ومواقع ويب جذابة وسهلة الاستخدام. نحن نهتم بتحسين تجربة المستخدم
+                وإنشاء مواقع ويب جذابة تعكس هوية العملاء وتلبي احتياجاتهم.</p>
             </div>
           </div>
         </div>
         <div class="col-md-6 col-lg-4 overflow-hidden mb-3 ani">
-          <h3>Our Awesome Work</h3>
+          <h3>أعمالنا الرائعة</h3>
           <div class="d-flex flex-wrap  justify-content-between align-items-center">
             <div class="col-5 w-50"><img class=" border p-0 img-fulid" width="90%" height="100px"
                 src="./image/IMG_3943.jpg" alt="img"></div>
@@ -561,9 +568,9 @@
         </div>
       </div>
     </div>
-    <div class="pt-3 pb-3 text-center text-white fs-6 bg-black opacity-50">Copyright &copy; <span id="copy-date"></span>
-      <span>Mohamed
-        Hussen</span>
+    <div class="pt-3 pb-3 text-center text-white fs-6 bg-black opacity-50">جميع الحقوق محفوظه &copy; <span
+        id="copy-date"></span>
+      <span>محمد حسين</span>
     </div>
   </footer>
   <!-- End Footer -->
